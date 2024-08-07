@@ -1,7 +1,6 @@
-import { DocumentDefinition } from "mongoose";
-import UserModel, { UserDocument } from "../models/user.model";
+import UserModel, { UserInput } from "../models/user.model";
 
-export async function createUser(input: DocumentDefinition<UserDocument>) {
+export async function createUser(input: UserInput) {
   try {
     return await UserModel.create(input) 
   }

@@ -1,7 +1,7 @@
 {
   "name": "banderbear",
   "version": "1.0.0",
-  "description": "Eden API",
+  "description": "Banderbear API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "eden-api"
+    "url": "banderbear"
   },
   "keywords": [
-    "eden",
+    "banderbear",
     "api"
   ],
   "author": "soundwanders",
